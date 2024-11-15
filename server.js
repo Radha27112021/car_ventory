@@ -259,28 +259,35 @@ app.put(
   }
 );
 
-// Route to delete a car (New car API)
-app.delete("/api/newcars/delete/:id", async (req, res) => {
-  const carId = req.params.id;
-
+// GET Route to fetch all cars
+app.get("/api/newcars", async (req, res) => {
   try {
-    const car = await NewCars.findByIdAndDelete(carId); // Correct model usage
-    if (!car) {
-      return res.status(404).json({ message: "Car not found." });
-    }
-
-    // Delete the images associated with the car
-    car.images.forEach((imagePath) => {
-      fs.unlinkSync(imagePath); // Delete each image file from the server
-    });
-
-    res.status(200).json({ message: "Car deleted successfully" });
+    const cars = await NewCars.find();
+    res.status(200).json(cars);
   } catch (error) {
-    console.error("Error deleting car:", error);
-    res.status(500).json({ message: "Error deleting car. Please try again." });
+    res
+      .status(500)
+      .json({ message: "Error fetching cars", error: error.message });
   }
 });
 
+// DELETE Route to delete a car by ID
+app.delete("/api/newcars/delete/:id", async (req, res) => {
+  try {
+    const carId = req.params.id;
+    const car = await NewCars.findByIdAndDelete(carId);
+
+    if (!car) {
+      return res.status(404).json({ message: "Car not found" });
+    }
+
+    res.status(200).json({ message: "Car deleted successfully", carId });
+  } catch (error) {
+    res
+      .status(500)
+      .json({ message: "Error deleting car", error: error.message });
+  }
+});
 // Start the server
 app.listen(port, () => {
   console.log(`Backend server running on http://localhost:${port}`);
