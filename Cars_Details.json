@@ -1,0 +1,396 @@
+[
+  {
+    "_id": "ObjectId('64a1f5d3b639fe1a8b000101')",
+    "carId": "ObjectId('64a1f5d3b639fe1a8b000001')",
+    "title": "Tesla Model S",
+    "description": "A high-performance electric sedan with cutting-edge autopilot features and a sleek, aerodynamic design. Known for its rapid acceleration, minimalistic interior, and advanced safety systems, the Model S redefines the driving experience with its long range and energy efficiency.",
+    "tags": ["electric", "sedan", "Tesla", "luxury"],
+    "images": [
+      "https://images.unsplash.com/photo-1620891549027-942fdc95d3f5?w=600&auto=format&fit=crop&q=60",
+      "https://images.unsplash.com/photo-1603484477950-a6c2a7a0f7c8?w=600&auto=format&fit=crop&q=60"
+    ],
+    "price": "Rs. 80,00,000",
+    "specifications": {
+      "range": "396 miles",
+      "battery": "100 kWh",
+      "top_speed": "200 mph",
+      "acceleration": "0-60 mph in 2.4 seconds",
+      "horsepower": "1020 hp",
+      "drive_type": "All-Wheel Drive"
+    },
+    "dimensions": {
+      "length": "196 inches",
+      "width": "77.3 inches",
+      "height": "56.9 inches",
+      "wheelbase": "116.5 inches"
+    },
+    "manufacturing_year": 2023,
+    "color_options": ["White", "Black", "Silver", "Red"],
+    "fuel_type": "Electric",
+    "features": [
+      "Autopilot",
+      "Full Self-Driving Capability",
+      "Enhanced Sound System",
+      "Heated Seats",
+      "Panoramic Sunroof"
+    ],
+    "warranty": {
+      "battery": "8 years or 150,000 miles",
+      "vehicle": "4 years or 50,000 miles"
+    },
+    "dealer": {
+      "name": "Tesla Showroom",
+      "location": "Mumbai, India",
+      "contact": "+91 12345 67890"
+    }
+  },
+  {
+    "_id": "ObjectId('64a1f5d3b639fe1a8b000102')",
+    "carId": "ObjectId('64a1f5d3b639fe1a8b000001')",
+    "title": "Ford Mustang GT",
+    "description": "Iconic American muscle car with a powerful V8 engine.",
+    "tags": ["gasoline", "coupe", "Ford", "muscle"],
+    "images": "https://images.unsplash.com/photo-1702323378071-5d8a931cc429?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Rm9yZCUyME11c3RhbmclMjBHVHxlbnwwfHwwfHx8MA%3D%3D",
+    "price": "Rs. 50,00,000",
+    "specifications": {
+      "engine": "5.0L V8",
+      "horsepower": "450 hp",
+      "torque": "410 lb-ft",
+      "transmission": "6-speed manual",
+      "top_speed": "155 mph",
+      "acceleration": "0-60 mph in 4.2 seconds",
+      "drive_type": "Rear-Wheel Drive"
+    },
+    "dimensions": {
+      "length": "188.5 inches",
+      "width": "75.4 inches",
+      "height": "54.3 inches",
+      "wheelbase": "107.1 inches"
+    },
+    "manufacturing_year": 2023,
+    "fuel_type": "Gasoline"
+  },
+  {
+    "_id": "ObjectId('64a1f5d3b639fe1a8b000103')",
+    "carId": "ObjectId('64a1f5d3b639fe1a8b000002')",
+    "title": "BMW i8",
+    "description": "A plug-in hybrid sports car with a futuristic design.",
+    "tags": ["hybrid", "sports", "BMW", "luxury"],
+    "images": "https://images.unsplash.com/photo-1724414768901-3fa96c46966b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Qk1XJTIwaTh8ZW58MHx8MHx8fDA%3D",
+    "price": "Rs. 1,20,00,000",
+    "specifications": {
+      "engine": "1.5L turbocharged 3-cylinder + electric motor",
+      "horsepower": "369 hp",
+      "torque": "420 lb-ft",
+      "transmission": "6-speed automatic",
+      "top_speed": "155 mph",
+      "acceleration": "0-60 mph in 4.4 seconds",
+      "drive_type": "All-Wheel Drive"
+    },
+    "dimensions": {
+      "length": "184.9 inches",
+      "width": "76.5 inches",
+      "height": "50.8 inches",
+      "wheelbase": "110.2 inches"
+    },
+    "manufacturing_year": 2022,
+    "fuel_type": "Hybrid"
+  },
+  {
+    "_id": "ObjectId('64a1f5d3b639fe1a8b000104')",
+    "carId": "ObjectId('64a1f5d3b639fe1a8b000002')",
+    "title": "Toyota Prius",
+    "description": "A popular hybrid sedan known for fuel efficiency.",
+    "tags": ["hybrid", "sedan", "Toyota", "efficient"],
+    "images": "https://images.unsplash.com/photo-1621993202323-f438eec934ff?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8VG95b3RhJTIwUHJpdXN8ZW58MHx8MHx8fDA%3D",
+    "price": "Rs. 25,00,000",
+    "specifications": {
+      "engine": "1.8L 4-cylinder hybrid",
+      "horsepower": "121 HP",
+      "transmission": "Continuously Variable Transmission (CVT)",
+      "fuelType": "Hybrid",
+      "mileage": "25 km/l"
+    },
+    "dimensions": {
+      "length": "4540 mm",
+      "width": "1760 mm",
+      "height": "1470 mm",
+      "wheelbase": "2700 mm",
+      "groundClearance": "140 mm"
+    },
+    "manufacturingYear": 2022
+  },
+  {
+    "_id": "ObjectId('64a1f5d3b639fe1a8b000105')",
+    "carId": "ObjectId('64a1f5d3b639fe1a8b000003')",
+    "title": "Audi Q7",
+    "description": "Luxury SUV with spacious interior and advanced technology.",
+    "tags": ["SUV", "Audi", "luxury", "spacious"],
+    "images": "https://images.unsplash.com/photo-1632823472829-5359d7455d53?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8QXVkaSUyMFE3fGVufDB8fDB8fHww",
+    "price": "Rs. 85,00,000",
+    "specifications": {
+      "engine": "3.0L V6 turbocharged",
+      "horsepower": "335 HP",
+      "transmission": "8-speed automatic",
+      "fuelType": "Petrol",
+      "mileage": "12 km/l"
+    },
+    "dimensions": {
+      "length": "5063 mm",
+      "width": "1968 mm",
+      "height": "1741 mm",
+      "wheelbase": "2995 mm",
+      "groundClearance": "210 mm"
+    },
+    "manufacturingYear": 2023
+  },
+  {
+    "_id": "ObjectId('64a1f5d3b639fe1a8b000106')",
+    "carId": "ObjectId('64a1f5d3b639fe1a8b000003')",
+    "title": "Chevrolet Camaro",
+    "description": "High-performance coupe with powerful engine options.",
+    "tags": ["gasoline", "coupe", "Chevrolet", "muscle"],
+    "images": "https://images.unsplash.com/photo-1615769516664-ca7302760b23?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q2hldnJvbGV0JTIwQ2FtYXJvfGVufDB8fDB8fHww",
+    "price": "Rs. 35,00,000",
+    "specifications": {
+      "engine": "6.2L V8",
+      "horsepower": "455 HP",
+      "transmission": "6-speed manual",
+      "fuelType": "Petrol",
+      "mileage": "8 km/l"
+    },
+    "dimensions": {
+      "length": "4783 mm",
+      "width": "1897 mm",
+      "height": "1349 mm",
+      "wheelbase": "2811 mm",
+      "groundClearance": "120 mm"
+    },
+    "manufacturingYear": 2023
+  },
+
+  {
+    "_id": "ObjectId('64a1f5d3b639fe1a8b000107')",
+    "carId": "ObjectId('64a1f5d3b639fe1a8b000004')",
+    "title": "Honda Accord",
+    "description": "Reliable mid-size sedan with great fuel efficiency.",
+    "tags": ["sedan", "Honda", "reliable", "efficient"],
+    "images": "https://images.unsplash.com/photo-1726953068093-c833f21dbef5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8SG9uZGElMjBBY2NvcmR8ZW58MHx8MHx8fDA%3D",
+    "price": "Rs. 25,00,000",
+    "specifications": {
+      "engine": "2.0L I4",
+      "horsepower": "192 HP",
+      "fuelType": "Petrol",
+      "transmission": "Automatic"
+    },
+    "dimensions": {
+      "length": "4933 mm",
+      "width": "1862 mm",
+      "height": "1450 mm",
+      "wheelbase": "2829 mm"
+    },
+    "manufacturingYear": 2023
+  },
+  {
+    "_id": "ObjectId('64a1f5d3b639fe1a8b000108')",
+    "carId": "ObjectId('64a1f5d3b639fe1a8b000004')",
+    "title": "Mercedes-Benz G-Class",
+    "description": "Luxury off-road SUV with powerful engine options.",
+    "tags": ["SUV", "Mercedes-Benz", "luxury", "off-road"],
+    "images": "https://images.unsplash.com/photo-1683145469757-8eab80c2d523?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TWVyY2VkZXMlMjBCZW56JTIwRyUyMENsYXNzfGVufDB8fDB8fHww",
+    "price": "Rs. 1,50,00,000",
+    "specifications": {
+      "engine": "4.0L V8",
+      "horsepower": "416 HP",
+      "fuelType": "Petrol",
+      "transmission": "Automatic"
+    },
+    "dimensions": {
+      "length": "4817 mm",
+      "width": "1931 mm",
+      "height": "1969 mm",
+      "wheelbase": "2890 mm"
+    },
+    "manufacturingYear": 2023
+  },
+  {
+    "_id": "ObjectId('64a1f5d3b639fe1a8b000109')",
+    "carId": "ObjectId('64a1f5d3b639fe1a8b000005')",
+    "title": "Porsche 911",
+    "description": "Classic sports car known for its performance and design.",
+    "tags": ["sports", "Porsche", "luxury", "performance"],
+    "images": "https://images.unsplash.com/photo-1603132567741-b30e1a9d37b2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8UG9yc2NoZSUyMDkxMXxlbnwwfHwwfHx8MA%3D%3D",
+    "price": "Rs. 2,00,00,000",
+    "specifications": {
+      "engine": "3.0L Flat-6",
+      "horsepower": "443 HP",
+      "fuelType": "Petrol",
+      "transmission": "Automatic"
+    },
+    "dimensions": {
+      "length": "4519 mm",
+      "width": "1852 mm",
+      "height": "1300 mm",
+      "wheelbase": "2450 mm"
+    },
+    "manufacturingYear": 2023
+  },
+  {
+    "_id": "ObjectId('64a1f5d3b639fe1a8b000110')",
+    "carId": "ObjectId('64a1f5d3b639fe1a8b000006')",
+    "title": "Hyundai Sonata",
+    "description": "Comfortable sedan with modern features and great value.",
+    "tags": ["sedan", "Hyundai", "comfortable", "affordable"],
+    "images": "https://images.unsplash.com/photo-1681361270520-4cc3961d3b00?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8SHl1bmRhaSUyMFNvbmF0YXxlbnwwfHwwfHx8MA%3D%3D",
+    "price": "Rs. 12,00,000",
+    "specifications": {
+      "engine": "2.5L I4",
+      "horsepower": "191 HP",
+      "fuelType": "Petrol",
+      "transmission": "Automatic"
+    },
+    "dimensions": {
+      "length": "4900 mm",
+      "width": "1860 mm",
+      "height": "1440 mm",
+      "wheelbase": "2840 mm"
+    },
+    "manufacturingYear": 2023
+  },
+  {
+    "_id": "ObjectId('64a1f5d3b639fe1a8b000111')",
+    "carId": "ObjectId('64a1f5d3b639fe1a8b000007')",
+    "title": "Volkswagen Golf GTI",
+    "description": "Sporty hatchback with agile handling and turbocharged engine.",
+    "tags": ["hatchback", "Volkswagen", "sports", "turbocharged"],
+    "images": "https://images.unsplash.com/photo-1707002752329-5a4a889f7de9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHRlc2xhJTIwbW9kZWwlMjB4fGVufDB8fDB8fHww",
+    "price": "Rs. 18,00,000",
+    "specifications": {
+      "engine": "2.0L Turbo I4",
+      "horsepower": "228 HP",
+      "fuelType": "Petrol",
+      "transmission": "Automatic"
+    },
+    "dimensions": {
+      "length": "4263 mm",
+      "width": "1789 mm",
+      "height": "1448 mm",
+      "wheelbase": "2626 mm"
+    },
+    "manufacturingYear": 2023
+  },
+  {
+    "_id": "ObjectId('64a1f5d3b639fe1a8b000112')",
+    "carId": "ObjectId('64a1f5d3b639fe1a8b000008')",
+    "title": "Mazda MX-5 Miata",
+    "description": "Lightweight roadster with great handling and fun to drive.",
+    "tags": ["convertible", "Mazda", "roadster", "lightweight"],
+    "images": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fE1hemRhJTIwTVglMjA1JTIwTWlhdGElMjBjYXJ8ZW58MHx8MHx8fDA%3D",
+    "price": "Rs. 25,00,000",
+    "specifications": {
+      "engine": "2.0L I4",
+      "horsepower": "181 HP",
+      "fuelType": "Petrol",
+      "transmission": "Manual"
+    },
+    "dimensions": {
+      "length": "3915 mm",
+      "width": "1735 mm",
+      "height": "1235 mm",
+      "wheelbase": "2310 mm"
+    },
+    "manufacturingYear": 2023
+  },
+  {
+    "_id": "ObjectId('64a1f5d3b639fe1a8b000113')",
+    "carId": "ObjectId('64a1f5d3b639fe1a8b000009')",
+    "title": "Nissan GT-R",
+    "description": "High-performance sports car with advanced technology.",
+    "tags": ["sports", "Nissan", "high-performance", "advanced"],
+    "images": "https://images.unsplash.com/photo-1730299236588-d4883f82448a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Tmlzc2FuJTIwR1QlMjBSfGVufDB8fDB8fHww",
+    "price": "Rs. 2,50,00,000",
+    "specifications": {
+      "engine": "3.8L V6 Twin-Turbocharged",
+      "horsepower": "565 hp",
+      "torque": "467 lb-ft",
+      "transmission": "6-speed dual-clutch",
+      "fuelEfficiency": "8 km/l"
+    },
+    "dimensions": {
+      "length": "4,690 mm",
+      "width": "1,895 mm",
+      "height": "1,380 mm",
+      "wheelbase": "2,765 mm"
+    },
+    "manufacturingYear": "2023"
+  },
+  {
+    "_id": "ObjectId('64a1f5d3b639fe1a8b000114')",
+    "carId": "ObjectId('64a1f5d3b639fe1a8b0000010')",
+    "title": "Kia Seltos",
+    "description": "Compact SUV with modern features and great fuel efficiency.",
+    "tags": ["SUV", "Kia", "compact", "efficient"],
+    "images": "https://images.unsplash.com/photo-1659406189166-7c17fe5df12a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8S2lhJTIwU2VsdG9zfGVufDB8fDB8fHww",
+    "price": "Rs. 18,00,000",
+    "specifications": {
+      "engine": "1.5L 4-cylinder",
+      "horsepower": "115 hp",
+      "torque": "144 lb-ft",
+      "transmission": "6-speed automatic",
+      "fuelEfficiency": "16 km/l"
+    },
+    "dimensions": {
+      "length": "4,370 mm",
+      "width": "1,800 mm",
+      "height": "1,620 mm",
+      "wheelbase": "2,630 mm"
+    },
+    "manufacturingYear": "2023"
+  },
+  {
+    "_id": "ObjectId('64a1f5d3b639fe1a8b000115')",
+    "carId": "ObjectId('64a1f5d3b639fe1a8b0000011')",
+    "title": "Jeep Wrangler",
+    "description": "Legendary off-road vehicle with rugged capability and iconic design.",
+    "tags": ["SUV", "Jeep", "off-road", "rugged"],
+    "images": "https://images.unsplash.com/photo-1641783939273-8e77bc7085c5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8SmVlcCUyMFdyYW5nbGVyfGVufDB8fDB8fHww",
+    "price": "Rs. 50,00,000",
+    "specifications": {
+      "engine": "3.6L V6",
+      "horsepower": "285 hp",
+      "torque": "260 lb-ft",
+      "transmission": "8-speed automatic",
+      "fuelEfficiency": "10 km/l"
+    },
+    "dimensions": {
+      "length": "4,230 mm",
+      "width": "1,875 mm",
+      "height": "1,840 mm",
+      "wheelbase": "2,460 mm"
+    },
+    "manufacturingYear": "2023"
+  },
+  {
+    "_id": "ObjectId('64a1f5d3b639fe1a8b000116')",
+    "carId": "ObjectId('64a1f5d3b639fe1a8b000012')",
+    "title": "Land Rover Defender",
+    "description": "Luxury SUV with exceptional off-road ability and modern design.",
+    "tags": ["SUV", "Land Rover", "luxury", "off-road"],
+    "images": "https://images.unsplash.com/photo-1546982491-7e976db2dc82?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fExhbmQlMjBSb3ZlciUyMERlZmVuZGVyfGVufDB8fDB8fHww",
+    "price": "Rs. 1,20,00,000",
+    "specifications": {
+      "engine": "2.0L 4-cylinder Turbocharged",
+      "horsepower": "295 hp",
+      "torque": "400 lb-ft",
+      "transmission": "8-speed automatic",
+      "fuelEfficiency": "13 km/l"
+    },
+    "dimensions": {
+      "length": "4,758 mm",
+      "width": "2,008 mm",
+      "height": "1,967 mm",
+      "wheelbase": "2,923 mm"
+    },
+    "manufacturingYear": "2023"
+  }
+]
